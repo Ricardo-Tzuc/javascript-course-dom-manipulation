@@ -17,6 +17,8 @@
         }
         body {
             background: #292929;
+            font-size: 1.4rem;
+            margin: 2rem 0 0 2rem;
         }
         /*
             Text of styles and Inheritance.
@@ -28,29 +30,39 @@
         article {
             font-size: 1rem;
         } */
+        a {
+            text-decoration: none;
+        }
+        li {
+            list-style: none;
+        }
     </style>
 </head>
 <body>
 
-    <h1 id="app-title">I'm the header of the </h1>
-    <ul id="myList">
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-    </ul>
-
-    <div id="myDiv">
-        <span>Element A</span>
-        <span>Element B</span>
-    </div>
-    <div class="title">ejemplito
-        <article>ejemplito 2</article>
-    </div>
-    
-
-    
-
+    <header>
+        <h1 id="app-title">I'm the header of this app </h1>
+        <menu>
+            <ul id="myList">
+                <li><a href="#">Home</a></li>
+                <li class="menu-item"><a href="#">About me</a></li>
+                <li class="menu-item"><a href="#">Blogs</a></li>
+                <li class="menu-item"><a href="#">Contact</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <section>
+            <p></p>
+        </section>
+        <section>
+            <p>I'm the principal text in this app</p>
+        </section>
+        <section>
+            <p>I'm the secondary text in this app</p>
+            <p>I'm the secondary text in this app</p>
+        </section>
+    </main>
     <script src="app.js"></script>
 </body>
 </html>
