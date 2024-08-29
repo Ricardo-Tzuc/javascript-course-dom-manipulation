@@ -60,9 +60,8 @@ console.log(menuItems2); // NodeList[3] (li.menu-item, li.menu-item)
 
 
 /*
-En términos de performance, utilizar getElement/s es más rápido al hacer
-la query que al usar querySelector, son más nuevos, pero en temas de velocidad
-las consultas con getElements .
+In terms of performance, using getElement/s is faster when querying than using querySelector.
+They are newer, but in terms of speed, queries with getElements will be ideal.
  */
 
 // More info in this article: "https://www.freecodecamp.org/news/dom-manipulation-htmlcollection-vs-nodelist/#:~:text=A%20NodeList%20is%20not%20always,t%20reflected%20in%20the%20NodeList%20."
