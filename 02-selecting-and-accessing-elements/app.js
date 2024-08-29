@@ -42,7 +42,6 @@
 const title = document.getElementById("app-title")
 console.log(title); // <h1 id="app-title">I'm the header of this app </h1>
 
-
 const title2 = document.querySelector("#app-title")
 console.log(title2); // <h1 id="app-title">I'm the header of this app </h1>
 
@@ -50,14 +49,13 @@ const paragraph = document.querySelector("p")
 console.log(paragraph); // <p></p>
 
 const menuItems = document.getElementsByClassName("menu-item")
-console.log(menuItems); //HTMLCollection(3)[li.menu-item, li.menu-item, li.menu-item]
+console.log(menuItems); //HTMLCollection(3) [li.menu-item, li.menu-item, li.menu-item]
 
 const paragraphs = document.getElementsByTagName("p")
-console.log(paragraphs); // HTMLCollection(4)[p, p, p, p]
+console.log(paragraphs); // HTMLCollection(4) [p, p, p, p]
 
 const menuItems2 = document.querySelectorAll(".menu-item")
-console.log(menuItems2); // NodeList[3] (li.menu-item, li.menu-item)
-
+console.log(menuItems2); // NodeList(3) [li.menu-item, li.menu-item, li.menu-item]
 
 /*
 In terms of performance, using getElement/s is faster when querying than using querySelector.
